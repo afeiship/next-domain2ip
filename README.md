@@ -15,9 +15,14 @@ npm install -S @feizheng/next-domain2ip
 ```js
 import '@feizheng/next-domain2ip';
 
-nx.domain2ip('www.china.com');
+nx.domain2ip('www.china.com').then(res=>{
+  console.log(res);
+});
 // [ '13.114.40.48' ]
 ```
+
+## resources
+- https://millermedeiros.github.io/mdoc/examples/node_api/doc/dns.html#dns.lookup 
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-domain2ip/blob/master/LICENSE.txt).
