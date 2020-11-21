@@ -1,6 +1,15 @@
+/*!
+ * name: @jswork/next-domain2ip
+ * description: Query ip from domain.
+ * homepage: https://github.com/afeiship/next-domain2ip
+ * version: 1.0.0
+ * date: 2020-11-21 09:13:21
+ * license: MIT
+ */
+
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var dns = require('dns');
 
   nx.domain2ip = function (inDomain) {
