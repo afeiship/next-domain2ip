@@ -3,7 +3,7 @@
  * description: Query ip from domain.
  * homepage: https://github.com/afeiship/next-domain2ip
  * version: 1.0.0
- * date: 2020-11-21 09:13:21
+ * date: 2020-11-21 09:15:26
  * license: MIT
  */
 
